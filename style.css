@@ -1,0 +1,32 @@
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(242, 247, 224);
+}
+
+span {
+    display: block;
+    margin: 3px;
+}
+
+.btn-change-color {
+    padding: 10px;
+    background-color: rgb(255, 159, 80);
+    border: 2px solid rgba(151, 121, 121, 0.438);
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: rgb(34, 2, 56);
+}
+
+.btn-change-color:hover {
+    background-color: rgba(253, 173, 98, 0.733);
+    border: 2px solid rgba(163, 141, 133, 0.719);
+    color: #fafafa;
+}
+
